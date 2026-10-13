@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walkthrough - Sublustrum Psychological Adventure Guide</title>
+    <meta name="description" content="Sublustrum walkthrough guide. Complete story walkthrough with puzzle solutions and ending explanation.">
+    <meta name="keywords" content="Sublustrum walkthrough, Sublustrum story, Sublustrum ending, puzzle solutions, Flickering World guide">
+    <link rel="canonical" href="https://sublustrum.wiki/walkthrough.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        void: { 900: '#0a0810', 800: '#12101a', 700: '#1a1525', 600: '#251f35' },
+                        twilight: { 700: '#2d2045', 600: '#3d2d5c', 500: '#4a3a6e', 400: '#5c4a82' },
+                        mystic: { 500: '#7b68a6', 400: '#9585b8', 300: '#b3a3cc' },
+                        ember: { 500: '#c45c3a', 400: '#d4704f', 300: '#e08868' },
+                        silver: { 400: '#a8a8b8', 500: '#c0c0cc' }
+                    },
+                    fontFamily: { 'cinzel': ['Cinzel', 'serif'], 'crimson': ['Crimson Text', 'serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1525 0%, #0a0810 60%, #050308 100%); min-height: 100vh; font-family: 'Crimson Text', serif; }
+        .gothic { font-family: 'Cinzel', serif; }
+        .card-mystic { background: linear-gradient(135deg, rgba(45, 32, 69, 0.5) 0%, rgba(10, 8, 16, 0.95) 100%); border: 1px solid rgba(123, 104, 166, 0.25); }
+        .card-hover { transition: all 0.4s ease; }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(123, 104, 166, 0.5); }
+    </style>
+</head>
+<body class="text-gray-200 antialiased">
+    <header class="sticky top-0 z-50 border-b border-twilight-600/40" style="background: rgba(10, 8, 16, 0.95); backdrop-filter: blur(12px);">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-twilight-600 rounded-lg flex items-center justify-center border border-mystic-400/40">
+                        <span class="gothic text-mystic-400 font-bold text-lg">S</span>
+                    </div>
+                    <div>
+                        <span class="gothic text-lg text-silver-400 tracking-wider">SUBLUSTRUM</span>
+                        <span class="block text-xs text-mystic-400/70">Psychological Adventure</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-1">
+                    <a href="/" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Home</a>
+                    <a href="walkthrough.html" class="px-4 py-2 text-mystic-400 bg-twilight-600/40 rounded border border-mystic-400/30 font-medium">Walkthrough</a>
+                    <a href="puzzles.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Puzzles</a>
+                    <a href="characters.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Characters</a>
+                    <a href="lore.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Lore</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h1 class="gothic text-4xl md:text-5xl font-bold text-silver-400 mb-4 tracking-wider">STORY <span class="text-mystic-400">WALKTHROUGH</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto">Navigate the Flickering World and find your brother. Contains story spoilers.</p>
+        </div>
+
+        <!-- Prologue -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <span class="gothic text-3xl text-mystic-400 font-bold">I</span>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">THE AWAKENING</h2>
+                            <p class="text-gray-500 text-sm">Prologue — The Real World</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">You receive a cryptic letter from your brother, the scientist, inviting you to his laboratory. Upon arrival, you find the lab abandoned with strange machinery humming in the basement.</p>
+                    <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Key Observations:</h3>
+                    <ul class="space-y-2 text-gray-300 text-sm mb-4">
+                        <li>• Examine the brother's desk for research notes</li>
+                        <li>• Find the photograph of the Sublustrum device</li>
+                        <li>• Discover the journal entries about "consciousness exploration"</li>
+                    </ul>
+                    <p class="text-gray-400 text-sm italic">The machine awaits. Once you enter, there is no turning back.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter 1 -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <span class="gothic text-3xl text-mystic-400 font-bold">II</span>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">THE FLICKERING WORLD</h2>
+                            <p class="text-gray-500 text-sm">Chapter 1 — First Contact</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">You awaken in a surreal landscape where reality bends. This is the Flickering World—a manifestation of the subconscious mind. Your brother's presence is everywhere, but nowhere.</p>
+                    <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Objectives:</h3>
+                    <ul class="space-y-2 text-gray-300 text-sm mb-4">
+                        <li>• Learn basic interaction with the environment</li>
+                        <li>• Find the first memory fragment (the childhood home)</li>
+                        <li>• Locate the Frequency Device</li>
+                    </ul>
+                    <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Puzzle Hint:</h3>
+                    <p class="text-gray-400 text-sm italic">The house door won't open normally. Listen for the humming sound from within—the pitch reveals the combination.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter 2 -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <span class="gothic text-3xl text-mystic-400 font-bold">III</span>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">ECHOES OF MEMORY</h2>
+                            <p class="text-gray-500 text-sm">Chapter 2 — The Industrial District</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">The industrial sector represents the brother's scientific mind—factories of thought, machinery of logic. Here you'll face audio puzzles that test your hearing.</p>
+                    <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Objectives:</h3>
+                    <ul class="space-y-2 text-gray-300 text-sm mb-4">
+                        <li>• Navigate the steam-powered corridors</li>
+                        <li>• Solve the harmonic resonance puzzle</li>
+                        <li>• Find the "Father's Workshop" memory</li>
+                    </ul>
+                    <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Puzzle Hint:</h3>
+                    <p class="text-gray-400 text-sm italic">Three pipes, three tones. Match the sequence from the brother's childhood song (humming it helps).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter 3 -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <span class="gothic text-3xl text-mystic-400 font-bold">IV</span>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">THE VOID BETWEEN</h2>
+                            <p class="text-gray-500 text-sm">Chapter 3 — The Dark Sanctuary</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">The deepest layer of the subconscious. Here, the brother's greatest fears manifest. Shadowy figures pursue you through endless corridors.</p>
+                    <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Objectives:</h3>
+                    <ul class="space-y-2 text-gray-300 text-sm mb-4">
+                        <li>• Escape the Shadow presence</li>
+                        <li>• Recover the "Last Conversation" memory</li>
+                        <li>• Reach the Central Chamber</li>
+                    </ul>
+                    <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Warning:</h3>
+                    <p class="text-ember-400 text-sm italic">The Shadows cannot be fought—only evaded. Use silence and shadow.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter 4 -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <span class="gothic text-3xl text-mystic-400 font-bold">V</span>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">THE TRUTH</h2>
+                            <p class="text-gray-500 text-sm">Chapter 4 — Confrontation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">You've found your brother, but he is not who you remember. The machine has changed him—or perhaps revealed who he truly was.</p>
+                    <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">The Choice:</h3>
+                    <p class="text-gray-300 mb-4">Two endings await, determined by the memories you've collected and the truths you've uncovered.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-twilight-800/50 rounded-lg p-4">
+                            <h4 class="gothic text-lg font-bold text-mystic-400 mb-2">Ending A: Awakening</h4>
+                            <p class="text-gray-400 text-sm">Both of you escape the machine. But the Flickering World follows you home.</p>
+                        </div>
+                        <div class="bg-twilight-800/50 rounded-lg p-4">
+                            <h4 class="gothic text-lg font-bold text-ember-400 mb-2">Ending B: Submersion</h4>
+                            <p class="text-gray-400 text-sm">You choose to stay in the Flickering World with your brother. Reality fades away.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collectibles -->
+        <section>
+            <h2 class="gothic text-2xl font-bold text-silver-400 mb-6 tracking-wider">MEMORY <span class="text-mystic-400">FRAGMENTS</span></h2>
+            <div class="card-mystic rounded-xl p-6">
+                <p class="text-gray-300 mb-4">Throughout the Flickering World, you'll find 12 Memory Fragments that reveal the brother's past and the truth behind the Sublustrum project.</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div class="p-3 bg-twilight-800/50 rounded-lg">
+                        <span class="text-2xl">📼</span>
+                        <p class="text-mystic-400 text-xs mt-1">Childhood</p>
+                    </div>
+                    <div class="p-3 bg-twilight-800/50 rounded-lg">
+                        <span class="text-2xl">🔬</span>
+                        <p class="text-mystic-400 text-xs mt-1">First Discovery</p>
+                    </div>
+                    <div class="p-3 bg-twilight-800/50 rounded-lg">
+                        <span class="text-2xl">💔</span>
+                        <p class="text-mystic-400 text-xs mt-1">The Argument</p>
+                    </div>
+                    <div class="p-3 bg-twilight-800/50 rounded-lg">
+                        <span class="text-2xl">🌀</span>
+                        <p class="text-mystic-400 text-xs mt-1">First Entry</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-twilight-600/40 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p class="mb-2">Sublustrum © 2026 Brickworks Games / Phantomery Interactive</p>
+            <p>This is an unofficial fan site. Not affiliated with Brickworks Games or Phantomery Interactive.</p>
+            <div class="flex items-center justify-center gap-4 mt-4">
+                <a href="about.html" class="text-mystic-400 hover:text-white transition-colors">About</a>
+                <span>|</span>
+                <a href="privacy-policy.html" class="text-mystic-400 hover:text-white transition-colors">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

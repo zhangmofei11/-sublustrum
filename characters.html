@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters - Sublustrum Psychological Adventure Guide</title>
+    <meta name="description" content="Sublustrum characters guide. Meet the key characters including the protagonist, his brother, and the mysterious figures of the Flickering World.">
+    <meta name="keywords" content="Sublustrum characters, protagonist, brother, Sublustrum story, Flickering World characters">
+    <link rel="canonical" href="https://sublustrum.wiki/characters.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        void: { 900: '#0a0810', 800: '#12101a', 700: '#1a1525', 600: '#251f35' },
+                        twilight: { 700: '#2d2045', 600: '#3d2d5c', 500: '#4a3a6e', 400: '#5c4a82' },
+                        mystic: { 500: '#7b68a6', 400: '#9585b8', 300: '#b3a3cc' },
+                        ember: { 500: '#c45c3a', 400: '#d4704f', 300: '#e08868' },
+                        silver: { 400: '#a8a8b8', 500: '#c0c0cc' }
+                    },
+                    fontFamily: { 'cinzel': ['Cinzel', 'serif'], 'crimson': ['Crimson Text', 'serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1525 0%, #0a0810 60%, #050308 100%); min-height: 100vh; font-family: 'Crimson Text', serif; }
+        .gothic { font-family: 'Cinzel', serif; }
+        .card-mystic { background: linear-gradient(135deg, rgba(45, 32, 69, 0.5) 0%, rgba(10, 8, 16, 0.95) 100%); border: 1px solid rgba(123, 104, 166, 0.25); }
+        .card-hover { transition: all 0.4s ease; }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(123, 104, 166, 0.5); }
+    </style>
+</head>
+<body class="text-gray-200 antialiased">
+    <header class="sticky top-0 z-50 border-b border-twilight-600/40" style="background: rgba(10, 8, 16, 0.95); backdrop-filter: blur(12px);">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-twilight-600 rounded-lg flex items-center justify-center border border-mystic-400/40">
+                        <span class="gothic text-mystic-400 font-bold text-lg">S</span>
+                    </div>
+                    <div>
+                        <span class="gothic text-lg text-silver-400 tracking-wider">SUBLUSTRUM</span>
+                        <span class="block text-xs text-mystic-400/70">Psychological Adventure</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-1">
+                    <a href="/" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Home</a>
+                    <a href="walkthrough.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Walkthrough</a>
+                    <a href="puzzles.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Puzzles</a>
+                    <a href="characters.html" class="px-4 py-2 text-mystic-400 bg-twilight-600/40 rounded border border-mystic-400/30 font-medium">Characters</a>
+                    <a href="lore.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Lore</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h1 class="gothic text-4xl md:text-5xl font-bold text-silver-400 mb-4 tracking-wider">THE <span class="text-mystic-400">CHARACTERS</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto">The people—and presences—that inhabit the Flickering World.</p>
+        </div>
+
+        <!-- Protagonist -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 bg-mystic-500/20 rounded-full flex items-center justify-center border border-mystic-400/40">
+                            <span class="gothic text-2xl text-mystic-400 font-bold">W</span>
+                        </div>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">THE WRITER (You)</h2>
+                            <p class="text-gray-500 text-sm">The Protagonist — A writer investigating his brother's disappearance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">A struggling writer who has always lived in his brother's shadow. When his brother—the brilliant scientist—vanishes, he follows cryptic clues to the Sublustrum machine.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Personality</h3>
+                            <p class="text-gray-400 text-sm">Introverted, observant, and determined. Uses writing skills to decode clues. Emotionally distant but deeply caring about family.</p>
+                        </div>
+                        <div>
+                            <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Role in the Flickering World</h3>
+                            <p class="text-gray-400 text-sm">A visitor and seeker of truth. His memories blend with his brother's, creating the unstable reality of the Flickering World.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Brother -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 bg-ember-500/20 rounded-full flex items-center justify-center border border-ember-400/40">
+                            <span class="gothic text-2xl text-ember-400 font-bold">E</span>
+                        </div>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">EDWARD — THE BROTHER</h2>
+                            <p class="text-gray-500 text-sm">A brilliant scientist lost in his own creation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">A genius scientist who created the Sublustrum machine to explore human consciousness. Obsessed with proving that the mind exists beyond physical death.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Background</h3>
+                            <p class="text-gray-400 text-sm">Younger than the protagonist but always the prodigy. Their parents favored Edward, creating tension. He never recovered from their mother's death.</p>
+                        </div>
+                        <div>
+                            <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">His Fate</h3>
+                            <p class="text-gray-400 text-sm">Trapped in the Sublustrum machine, Edward has become one with the Flickering World. He may no longer wish to leave—or may not even exist anymore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Shadow -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 bg-void-800 rounded-full flex items-center justify-center border border-void-600/60">
+                            <span class="text-3xl">👤</span>
+                        </div>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">THE SHADOW</h2>
+                            <p class="text-gray-500 text-sm">The embodiment of fear in the Flickering World</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">A dark presence that stalks the corridors of the deepest Flickering World levels. It cannot be fought—only evaded.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Nature</h3>
+                            <p class="text-gray-400 text-sm">Appears as a silhouette that shifts and distorts. It represents Edward's repressed fears and guilt—and perhaps something else entirely.</p>
+                        </div>
+                        <div>
+                            <h3 class="gothic text-lg font-bold text-mystic-400 mb-2">Behavior</h3>
+                            <p class="text-gray-400 text-sm">Drawn to sound and movement. It knows the Flickering World intimately and uses this knowledge to hunt. Silence is survival.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Guide -->
+        <section class="mb-12">
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 bg-mystic-400/20 rounded-full flex items-center justify-center border border-mystic-300/40">
+                            <span class="gothic text-2xl text-mystic-300 font-bold">?</span>
+                        </div>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">THE GUIDE</h2>
+                            <p class="text-gray-500 text-sm">A mysterious voice that leads you through the Flickering World</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">A disembodied voice that speaks in riddles. Is it an AI created by Edward? A fragment of his consciousness? Or something else entirely?</p>
+                    <div class="bg-twilight-800/50 rounded-lg p-4">
+                        <p class="text-mystic-300 text-sm italic">"You seek your brother. But do you seek to find him—or to understand why you abandoned him?"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Mother (Memory) -->
+        <section>
+            <div class="card-mystic rounded-xl overflow-hidden">
+                <div class="bg-twilight-700/50 p-6 border-b border-twilight-600/30">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 bg-silver-400/20 rounded-full flex items-center justify-center border border-silver-400/40">
+                            <span class="text-3xl">👩</span>
+                        </div>
+                        <div>
+                            <h2 class="gothic text-2xl font-bold text-silver-400">THE MOTHER (Memory)</h2>
+                            <p class="text-gray-500 text-sm">Appears as a fragment of childhood memory</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-300 mb-4">A recurring memory fragment of the brothers' mother, who died when they were young. Her presence in the Flickering World is both comforting and haunting.</p>
+                    <p class="text-gray-400 text-sm">She appears most often near objects from childhood—music boxes, photographs, and the lullaby that plays throughout the game.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-twilight-600/40 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p class="mb-2">Sublustrum © 2026 Brickworks Games / Phantomery Interactive</p>
+            <p>This is an unofficial fan site. Not affiliated with Brickworks Games or Phantomery Interactive.</p>
+            <div class="flex items-center justify-center gap-4 mt-4">
+                <a href="about.html" class="text-mystic-400 hover:text-white transition-colors">About</a>
+                <span>|</span>
+                <a href="privacy-policy.html" class="text-mystic-400 hover:text-white transition-colors">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

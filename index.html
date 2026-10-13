@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sublustrum - Psychological Adventure Game Guide | Complete Walkthrough</title>
+    <meta name="description" content="Sublustrum guide and walkthrough. Master the psychological adventure game with puzzles, story explanation, characters, and the mysterious Flickering World.">
+    <meta name="keywords" content="Sublustrum, Sublustrum guide, psychological adventure, puzzle guide, Flickering World, walkthrough, steam">
+    <link rel="canonical" href="https://sublustrum.wiki/index.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        void: { 900: '#0a0810', 800: '#12101a', 700: '#1a1525', 600: '#251f35' },
+                        twilight: { 700: '#2d2045', 600: '#3d2d5c', 500: '#4a3a6e', 400: '#5c4a82' },
+                        mystic: { 500: '#7b68a6', 400: '#9585b8', 300: '#b3a3cc' },
+                        ember: { 500: '#c45c3a', 400: '#d4704f', 300: '#e08868' },
+                        silver: { 400: '#a8a8b8', 500: '#c0c0cc' }
+                    },
+                    fontFamily: { 'cinzel': ['Cinzel', 'serif'], 'crimson': ['Crimson Text', 'serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1525 0%, #0a0810 60%, #050308 100%); min-height: 100vh; font-family: 'Crimson Text', serif; }
+        .gothic { font-family: 'Cinzel', serif; }
+        .card-mystic { background: linear-gradient(135deg, rgba(45, 32, 69, 0.5) 0%, rgba(10, 8, 16, 0.95) 100%); border: 1px solid rgba(123, 104, 166, 0.25); }
+        .card-hover { transition: all 0.4s ease; }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(123, 104, 166, 0.5); box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+        .glow { text-shadow: 0 0 20px rgba(123, 104, 166, 0.5); }
+    </style>
+</head>
+<body class="text-gray-200 antialiased">
+    <header class="sticky top-0 z-50 border-b border-twilight-600/40" style="background: rgba(10, 8, 16, 0.95); backdrop-filter: blur(12px);">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-twilight-600 rounded-lg flex items-center justify-center border border-mystic-400/40">
+                        <span class="gothic text-mystic-400 font-bold text-lg">S</span>
+                    </div>
+                    <div>
+                        <span class="gothic text-lg text-silver-400 tracking-wider">SUBLUSTRUM</span>
+                        <span class="block text-xs text-mystic-400/70">Psychological Adventure</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-1">
+                    <a href="/" class="px-4 py-2 text-mystic-400 bg-twilight-600/40 rounded border border-mystic-400/30 font-medium">Home</a>
+                    <a href="walkthrough.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Walkthrough</a>
+                    <a href="puzzles.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Puzzles</a>
+                    <a href="characters.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Characters</a>
+                    <a href="lore.html" class="px-4 py-2 text-silver-400 hover:text-white hover:bg-twilight-600/30 rounded transition-all">Lore</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <!-- Hero -->
+        <section class="text-center mb-16">
+            <div class="inline-block px-4 py-1 bg-twilight-600/40 border border-mystic-400/30 rounded-full mb-6">
+                <span class="text-mystic-400 text-sm">Coming Fall 2026 — Wishlist on Steam</span>
+            </div>
+            <h1 class="gothic text-5xl md:text-6xl font-bold text-silver-400 mb-6 tracking-wider glow">
+                SUBLUSTRUM
+            </h1>
+            <p class="text-xl text-mystic-300 max-w-3xl mx-auto mb-8 italic">
+                "Enter the machine. Enter your subconscious. Nothing is as it seems in the Flickering World."
+            </p>
+            <div class="flex items-center justify-center gap-4">
+                <a href="https://store.steampowered.com/app/4151300/Sublustrum/" target="_blank" class="px-8 py-3 bg-twilight-600 hover:bg-twilight-500 text-silver-400 font-semibold rounded-lg transition-colors border border-mystic-400/30">
+                    Wishlist on Steam
+                </a>
+                <a href="walkthrough.html" class="px-8 py-3 bg-transparent hover:bg-twilight-600/40 text-mystic-300 font-semibold rounded-lg transition-colors border border-twilight-500/50">
+                    View Walkthrough
+                </a>
+            </div>
+        </section>
+
+        <!-- Story Overview -->
+        <section class="mb-16">
+            <h2 class="gothic text-3xl font-bold text-silver-400 mb-8 tracking-wider text-center">THE <span class="text-mystic-400">STORY</span></h2>
+            <div class="card-mystic rounded-2xl p-8 max-w-4xl mx-auto">
+                <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                    You are a writer whose scientist brother has vanished. Following cryptic clues, you discover a strange machine that immerses you into the <span class="text-mystic-400 font-semibold">Flickering World</span>—a surreal landscape where memories become places and reality dissolves.
+                </p>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    As you explore this liminal space between consciousness and subconscious, you realize the machine was designed to explore the human mind itself. But your brother is somewhere inside, lost in his own creation. Can you find him before the Flickering World consumes you both?
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Features -->
+        <section class="mb-16">
+            <h2 class="gothic text-3xl font-bold text-silver-400 mb-8 tracking-wider text-center">KEY <span class="text-mystic-400">FEATURES</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card-mystic card-hover rounded-xl p-6">
+                    <div class="w-14 h-14 bg-twilight-700/50 rounded-xl flex items-center justify-center mb-4 border border-mystic-400/30">
+                        <span class="text-3xl">🌀</span>
+                    </div>
+                    <h3 class="gothic text-xl font-bold text-mystic-400 mb-2">The Flickering World</h3>
+                    <p class="text-gray-400 text-sm">A surrealist dreamscape where memories manifest as physical locations. Nothing behaves as expected.</p>
+                </div>
+                <div class="card-mystic card-hover rounded-xl p-6">
+                    <div class="w-14 h-14 bg-twilight-700/50 rounded-xl flex items-center justify-center mb-4 border border-mystic-400/30">
+                        <span class="text-3xl">🎵</span>
+                    </div>
+                    <h3 class="gothic text-xl font-bold text-mystic-400 mb-2">Sound-Driven Puzzles</h3>
+                    <p class="text-gray-400 text-sm">Music and audio are central to gameplay. Tune frequencies, follow voices, solve acoustic riddles.</p>
+                </div>
+                <div class="card-mystic card-hover rounded-xl p-6">
+                    <div class="w-14 h-14 bg-twilight-700/50 rounded-xl flex items-center justify-center mb-4 border border-mystic-400/30">
+                        <span class="text-3xl">🗝️</span>
+                    </div>
+                    <h3 class="gothic text-xl font-bold text-mystic-400 mb-2">Lateral Thinking</h3>
+                    <p class="text-gray-400 text-sm">Classic adventure puzzles with modern twists. Think beyond conventional solutions.</p>
+                </div>
+                <div class="card-mystic card-hover rounded-xl p-6">
+                    <div class="w-14 h-14 bg-twilight-700/50 rounded-xl flex items-center justify-center mb-4 border border-mystic-400/30">
+                        <span class="text-3xl">🎭</span>
+                    </div>
+                    <h3 class="gothic text-xl font-bold text-mystic-400 mb-2">Psychological Horror</h3>
+                    <p class="text-gray-400 text-sm">Atmospheric tension inspired by David Lynch and Tarkovsky's Stalker. Fear of the unknown.</p>
+                </div>
+                <div class="card-mystic card-hover rounded-xl p-6">
+                    <div class="w-14 h-14 bg-twilight-700/50 rounded-xl flex items-center justify-center mb-4 border border-mystic-400/30">
+                        <span class="text-3xl">⚙️</span>
+                    </div>
+                    <h3 class="gothic text-xl font-bold text-mystic-400 mb-2">Steampunk Aesthetics</h3>
+                    <p class="text-gray-400 text-sm">Victorian-era machinery meets retrofuturism. Brass, clockwork, and mysterious devices.</p>
+                </div>
+                <div class="card-mystic card-hover rounded-xl p-6">
+                    <div class="w-14 h-14 bg-twilight-700/50 rounded-xl flex items-center justify-center mb-4 border border-mystic-400/30">
+                        <span class="text-3xl">💀</span>
+                    </div>
+                    <h3 class="gothic text-xl font-bold text-mystic-400 mb-2">Near-Death Themes</h3>
+                    <p class="text-gray-400 text-sm">Explores consciousness at the edge of life. Dreams, dying, and the space between.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Atmosphere -->
+        <section class="mb-16">
+            <h2 class="gothic text-3xl font-bold text-silver-400 mb-8 tracking-wider text-center">A <span class="text-mystic-400">ATMOSPHERE</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="card-mystic rounded-xl p-6">
+                    <h3 class="gothic text-xl font-bold text-ember-400 mb-3">Dark Ambient Score</h3>
+                    <p class="text-gray-400 text-sm">Originally featuring music by Anthesteria, the soundtrack creates an oppressive, dreamlike atmosphere that responds to your actions.</p>
+                </div>
+                <div class="card-mystic rounded-xl p-6">
+                    <h3 class="gothic text-xl font-bold text-ember-400 mb-3">Visual Design</h3>
+                    <p class="text-gray-400 text-sm">Decadent steampunk aesthetics merged with Victorian mystery. Every frame is a painting, every shadow tells a story.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards -->
+        <section class="mb-16">
+            <h2 class="gothic text-3xl font-bold text-silver-400 mb-8 tracking-wider text-center">AWARDS & <span class="text-mystic-400">RECOGNITION</span></h2>
+            <div class="card-mystic rounded-xl p-6 max-w-2xl mx-auto">
+                <div class="flex items-center justify-center gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-ember-500/20 rounded-full flex items-center justify-center mx-auto mb-2 border border-ember-400/40">
+                            <span class="text-2xl">🏆</span>
+                        </div>
+                        <p class="gothic text-ember-400 text-sm">Best Adventure Game</p>
+                        <p class="text-gray-500 text-xs">KRI Awards 2008</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-ember-500/20 rounded-full flex items-center justify-center mx-auto mb-2 border border-ember-400/40">
+                            <span class="text-2xl">🎵</span>
+                        </div>
+                        <p class="gothic text-ember-400 text-sm">Best Sound Design</p>
+                        <p class="text-gray-500 text-xs">KRI Awards 2008</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Steam Stats -->
+        <section class="mb-16">
+            <div class="card-mystic rounded-xl p-8 max-w-2xl mx-auto text-center">
+                <div class="text-5xl mb-4">📊</div>
+                <h3 class="gothic text-2xl font-bold text-mystic-400 mb-2">50,000+ Steam Wishlists</h3>
+                <p class="text-gray-400">One of the most anticipated indie horror adventures of 2026</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-twilight-600/40 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p class="mb-2">Sublustrum © 2026 Brickworks Games / Phantomery Interactive</p>
+            <p>This is an unofficial fan site. Not affiliated with Brickworks Games or Phantomery Interactive.</p>
+            <div class="flex items-center justify-center gap-4 mt-4">
+                <a href="about.html" class="text-mystic-400 hover:text-white transition-colors">About</a>
+                <span>|</span>
+                <a href="privacy-policy.html" class="text-mystic-400 hover:text-white transition-colors">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
