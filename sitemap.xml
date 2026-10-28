@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://sublustrum.wiki/</loc>
+        <loc>https://sublustrum.site/</loc>
         <lastmod>2026-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://sublustrum.wiki/walkthrough.html</loc>
+        <loc>https://sublustrum.site/walkthrough.html</loc>
         <lastmod>2026-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://sublustrum.wiki/puzzles.html</loc>
+        <loc>https://sublustrum.site/puzzles.html</loc>
         <lastmod>2026-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://sublustrum.wiki/characters.html</loc>
+        <loc>https://sublustrum.site/characters.html</loc>
         <lastmod>2026-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://sublustrum.wiki/lore.html</loc>
+        <loc>https://sublustrum.site/lore.html</loc>
         <lastmod>2026-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://sublustrum.wiki/about.html</loc>
+        <loc>https://sublustrum.site/about.html</loc>
         <lastmod>2026-10-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://sublustrum.wiki/privacy-policy.html</loc>
+        <loc>https://sublustrum.site/privacy-policy.html</loc>
         <lastmod>2026-10-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
